@@ -1,0 +1,202 @@
+[
+  {
+    "id": "1",
+    "p_name": "Smartphone",
+    "p_desc": "High-performance smartphone with advanced features.",
+    "p_price": 499.99,
+    "p_stock": 50,
+    "p_img": "https://example.com/images/smartphone.jpg"
+  },
+  {
+    "id": "2",
+    "p_name": "Laptop",
+    "p_desc": "Powerful laptop for work and entertainment.",
+    "p_price": 899.99,
+    "p_stock": 40,
+    "p_img": "https://example.com/images/laptop.jpg"
+  },
+  {
+    "id": "2",
+    "p_name": "Laptop",
+    "p_desc": "Powerful laptop for work and entertainment.",
+    "p_price": 1000,
+    "p_stock": 80,
+    "p_img": "https://example.com/images/laptop.jpg"
+  },
+  {
+    "id": "3",
+    "p_name": "Headphones",
+    "p_desc": "High-quality headphones with noise cancellation.",
+    "p_price": 149.99,
+    "p_stock": 100,
+    "p_img": "https://example.com/images/headphones.jpg"
+  },
+  {
+    "id": "4",
+    "p_name": "Smart Watch",
+    "p_desc": "Feature-rich smartwatch with fitness tracking capabilities.",
+    "p_price": 199.99,
+    "p_stock": 20,
+    "p_img": "https://example.com/images/smartwatch.jpg"
+  },
+  {
+    "id": "5",
+    "p_name": "Tablet",
+    "p_desc": "Versatile tablet for work and entertainment on the go.",
+    "p_price": 299.99,
+    "p_stock": 40,
+    "p_img": "https://example.com/images/tablet.jpg"
+  },
+  {
+    "id": "6",
+    "p_name": "Wireless Earbuds",
+    "p_desc": "True wireless earbuds with excellent sound quality.",
+    "p_price": 79.99,
+    "p_stock": 80,
+    "p_img": "https://example.com/images/earbuds.jpg"
+  },
+  {
+    "id": "7",
+    "p_name": "Gaming Console",
+    "p_desc": "High-performance gaming console for immersive gaming experiences.",
+    "p_price": 399.99,
+    "p_stock": 15,
+    "p_img": "https://example.com/images/console.jpg"
+  },
+  {
+    "id": "8",
+    "p_name": "Smart Speaker",
+    "p_desc": "Voice-controlled smart speaker with built-in virtual assistant.",
+    "p_price": 129.99,
+    "p_stock": 60,
+    "p_img": "https://example.com/images/speaker.jpg"
+  },
+  {
+    "id": "9",
+    "p_name": "Digital Camera",
+    "p_desc": "Compact digital camera with high-resolution image capture.",
+    "p_price": 299.99,
+    "p_stock": 25,
+    "p_img": "https://example.com/images/camera.jpg"
+  },
+  {
+    "id": "10",
+    "p_name": "Fitness Tracker",
+    "p_desc": "Wearable fitness tracker with heart rate monitoring and activity tracking.",
+    "p_price": 89.99,
+    "p_stock": 70,
+    "p_img": "https://example.com/images/fitness-tracker.jpg"
+  },
+  {
+    "id": "11",
+    "p_name": "Wireless Charger",
+    "p_desc": "Fast wireless charger for convenient charging of compatible devices.",
+    "p_price": 49.99,
+    "p_stock": 120,
+    "p_img": "https://example.com/images/wireless-charger.jpg"
+  },
+  {
+    "id": "12",
+    "p_name": "External Hard Drive",
+    "p_desc": "Portable external hard drive for storing and backing up data.",
+    "p_price": 129.99,
+    "p_stock": 35,
+    "p_img": "https://example.com/images/hard-drive.jpg"
+  },
+  {
+    "id": "13",
+    "p_name": "Smart Thermostat",
+    "p_desc": "Programmable smart thermostat for efficient home heating and cooling.",
+    "p_price": 149.99,
+    "p_stock": 40,
+    "p_img": "https://example.com/images/thermostat.jpg"
+  },
+  {
+    "id": "14",
+    "p_name": "Wireless Mouse",
+    "p_desc": "Ergonomic wireless mouse with precision tracking and long battery life.",
+    "p_price": 39.99,
+    "p_stock": 90,
+    "p_img": "https://example.com/images/mouse.jpg"
+  },
+  {
+    "id": "15",
+    "p_name": "Bluetooth Speaker",
+    "p_desc": "Portable Bluetooth speaker with rich, immersive sound.",
+    "p_price": 69.99,
+    "p_stock": 55,
+    "p_img": "https://example.com/images/bluetooth-speaker.jpg"
+  },
+  {
+    "id": "16",
+    "p_name": "Smart Lock",
+    "p_desc": "Keyless smart lock for enhanced security and convenience.",
+    "p_price": 199.99,
+    "p_stock": 20,
+    "p_img": "https://example.com/images/smart-lock.jpg"
+  },
+  {
+    "id": "17",
+    "p_name": "Wireless Keyboard",
+    "p_desc": "Compact wireless keyboard for comfortable typing.",
+    "p_price": 49.99,
+    "p_stock": 80,
+    "p_img": "https://example.com/images/keyboard.jpg"
+  },
+  {
+    "id": "18",
+    "p_name": "Smart Scale",
+    "p_desc": "Digital smart scale for tracking weight and body composition.",
+    "p_price": 59.99,
+    "p_stock": 65,
+    "p_img": "https://example.com/images/scale.jpg"
+  },
+  {
+    "id": "19",
+    "p_name": "WiFi Range Extender",
+    "p_desc": "Dual-band WiFi range extender for expanding wireless coverage.",
+    "p_price": 79.99,
+    "p_stock": 30,
+    "p_img": "https://example.com/images/range-extender.jpg"
+  },
+  {
+    "id": "20",
+    "p_name": "Portable Bluetooth Earphones",
+    "p_desc": "Compact and lightweight Bluetooth earphones for on-the-go listening.",
+    "p_price": 59.99,
+    "p_stock": 50,
+    "p_img": "https://example.com/images/bluetooth-earphones.jpg"
+  },
+  {
+    "id": "21",
+    "p_name": "sample_product",
+    "p_desc": "this is testing of 3Api",
+    "p_price": "100",
+    "p_stock": "100",
+    "p_img": "NA"
+  },
+  {
+    "id": "21",
+    "p_name": "sample_product",
+    "p_desc": "this is testing of 3Api",
+    "p_price": "100",
+    "p_stock": "100",
+    "p_img": "NA"
+  },
+  {
+    "id": "21",
+    "p_name": "sample_product",
+    "p_desc": "this is testing of 3Api",
+    "p_price": "100",
+    "p_stock": "100",
+    "p_img": "NA"
+  },
+  {
+    "id": "21",
+    "p_name": "sample_product",
+    "p_desc": "this is testing of 3Api",
+    "p_price": "100",
+    "p_stock": "100",
+    "p_img": "NA"
+  }
+]
