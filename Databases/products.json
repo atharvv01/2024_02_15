@@ -9,7 +9,7 @@
   },
   {
     "id": "2",
-    "p_name": "Laptop",
+    "p_name": "windows laptop",
     "p_desc": "Powerful laptop for work and entertainment.",
     "p_price": 899.99,
     "p_stock": 40,
@@ -28,7 +28,7 @@
     "p_name": "Headphones",
     "p_desc": "High-quality headphones with noise cancellation.",
     "p_price": 149.99,
-    "p_stock": 100,
+    "p_stock": 90,
     "p_img": "https://example.com/images/headphones.jpg"
   },
   {
