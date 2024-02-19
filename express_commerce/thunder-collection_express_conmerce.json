@@ -1,0 +1,178 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "express_conmerce",
+    "dateExported": "2024-02-19T06:22:31.311Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "b0c6b030-611e-4ceb-87b6-334acb5c8075",
+            "colId": "6fbc14c1-ba70-4394-8a07-34cbb414c161",
+            "containerId": "",
+            "name": "search_using_string",
+            "url": "http://localhost:3000/serach?search_string=Laptop",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-15T12:47:57.175Z",
+            "modified": "2024-02-16T05:31:17.011Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "search_string",
+                    "value": "Laptop",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "fee717b9-845a-49e6-8dea-d152550a58ab",
+            "colId": "6fbc14c1-ba70-4394-8a07-34cbb414c161",
+            "containerId": "",
+            "name": "search_using_id",
+            "url": "http://localhost:3000/product_id?id=2",
+            "method": "GET",
+            "sortNum": 13125,
+            "created": "2024-02-16T05:31:57.843Z",
+            "modified": "2024-02-16T05:33:05.695Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "2",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "508b9cac-0015-4408-af50-6fbe767b7242",
+            "colId": "6fbc14c1-ba70-4394-8a07-34cbb414c161",
+            "containerId": "",
+            "name": "checkout",
+            "url": "http://localhost:3000/checkout?id=5&quantity=10",
+            "method": "PUT",
+            "sortNum": 16250,
+            "created": "2024-02-15T16:59:21.493Z",
+            "modified": "2024-02-19T05:58:54.428Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "5",
+                    "isPath": false
+                },
+                {
+                    "name": "quantity",
+                    "value": "10",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "bb5f7528-d197-4d67-b7e2-b2d1fa0740a8",
+            "colId": "6fbc14c1-ba70-4394-8a07-34cbb414c161",
+            "containerId": "",
+            "name": "add_product_to_database",
+            "url": "http://localhost:3000/product",
+            "method": "POST",
+            "sortNum": 19375,
+            "created": "2024-02-16T05:34:01.463Z",
+            "modified": "2024-02-19T05:38:17.656Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "  {\n    \"id\": \"56\",\n    \"p_name\": \"atharva zanwar\",\n    \"p_desc\": \"this is testing of 3Api\",\n    \"p_price\": \"100\",\n    \"p_stock\": \"100\"\n  }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f39d2c93-c03c-41eb-86bc-6a7bc119363a",
+            "colId": "6fbc14c1-ba70-4394-8a07-34cbb414c161",
+            "containerId": "",
+            "name": "update_product_to_database",
+            "url": "http://localhost:3000/product?id=56&p_price=10000",
+            "method": "PUT",
+            "sortNum": 22500,
+            "created": "2024-02-15T15:40:57.375Z",
+            "modified": "2024-02-19T05:39:03.284Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "56",
+                    "isPath": false
+                },
+                {
+                    "name": "p_price",
+                    "value": "10000",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "7f091873-c39a-4835-8957-86e49d1918f9",
+            "colId": "6fbc14c1-ba70-4394-8a07-34cbb414c161",
+            "containerId": "",
+            "name": "delete_product_from_database",
+            "url": "http://localhost:3000/product?id=56",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2024-02-16T05:48:22.491Z",
+            "modified": "2024-02-19T05:39:29.479Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "56",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "ee7fed4a-0659-4c6f-8c31-aefa35b285b5",
+            "colId": "6fbc14c1-ba70-4394-8a07-34cbb414c161",
+            "containerId": "",
+            "name": "order_status",
+            "url": "http://localhost:3000/status?id=71a7963d-19d1-4401-9ac5-f31961c51969",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-02-16T05:52:07.889Z",
+            "modified": "2024-02-19T05:42:59.000Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "71a7963d-19d1-4401-9ac5-f31961c51969",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "1936b0a9-20f4-4cdc-bfcb-f104c8150d19",
+            "colId": "6fbc14c1-ba70-4394-8a07-34cbb414c161",
+            "containerId": "",
+            "name": "cancel_order",
+            "url": "http://localhost:3000/cancel?id=33dd89fa-5862-4e61-90a3-d63f7c2e6a9b",
+            "method": "DELETE",
+            "sortNum": 80000,
+            "created": "2024-02-19T05:59:28.491Z",
+            "modified": "2024-02-19T06:00:33.433Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "33dd89fa-5862-4e61-90a3-d63f7c2e6a9b",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        }
+    ]
+}
