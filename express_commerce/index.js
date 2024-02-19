@@ -43,7 +43,7 @@ function getStatusById(jsonPath, id) {
     const data = JSON.parse(jsonData);
 
     // Find the object with the matching id
-    const object = data.find(item => item.o_id === id);
+    const object = data.find(item => item.id === id);
 
     return object;
 }
@@ -119,6 +119,7 @@ app.put('/checkout', (req, res) => {
         o_id: uniqueId,
         o_name: get_product.p_name,
         o_desc: get_product.p_desc,
+        o_quant: quant_to_update,
         o_price: (get_product.p_price*quant_to_update),
         o_status: "Pending",
         o_img: get_product.p_img
@@ -225,13 +226,20 @@ app.post('/status', (req, res) => {
 ^ This is used for ninth API wherein you get status of order using Id
 */
 app.delete('/cancel', (req, res) => {
+    const databasePath = '/Users/atharva_zanwar/Desktop/Mean_stack_traning/2024_02_15'
+    let id = req.query.id
+    const get_order = getStatusById(orderTablepath,id)
+    const prod_id = get_order.o_p_id
+    const get_product = getObjectById(productTablepath,prod_id)
+    get_product.p_stock = get_product.p_stock+get_order.o_quant
+    const newData = {
+        "p_stock": get_product.p_stock // Subtract quant_to_update from the current p_stock value
+    };
 
-    const id_to_update = req.query.id; // Get the id from the request parameters
+    updateRecord(databasePath, databaseName, Prod_tableName, get_product.id, newData)
 
-    // Retrieve existing product data from the database based on its id
-    const existingOrder = getStatusById(orderTablepath, id_to_update); // You need to implement getProductById function
-    res.json(existingOrder)
-
+    const data = deleteRecord(databasePath, databaseName, Ord_tableName,id)
+    res.json("Order cancelled succesfully")
 });
 
 /*

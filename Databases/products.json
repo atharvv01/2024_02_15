@@ -28,7 +28,7 @@
     "p_name": "Headphones",
     "p_desc": "High-quality headphones with noise cancellation.",
     "p_price": 149.99,
-    "p_stock": 90,
+    "p_stock": 80,
     "p_img": "https://example.com/images/headphones.jpg"
   },
   {
@@ -166,14 +166,6 @@
     "p_price": 59.99,
     "p_stock": 50,
     "p_img": "https://example.com/images/bluetooth-earphones.jpg"
-  },
-  {
-    "id": "21",
-    "p_name": "sample_product",
-    "p_desc": "this is testing of 3Api",
-    "p_price": "100",
-    "p_stock": "100",
-    "p_img": "NA"
   },
   {
     "id": "21",
